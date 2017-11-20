@@ -1,0 +1,233 @@
+@media(max-width: 1199px){
+	.slider-img{
+		width: 300px;
+	}
+	.slider-text h2{
+		font-size: 34px;
+	}
+	.calculation__right{
+		padding-left: 40px;
+	}
+	.calculation__item{
+		width: 45%;
+		margin-bottom: 20px;
+	}
+	.item-title_big{
+		font-size: 30px;
+	}
+	.cutting__btn .btn-white{
+		margin-left: 10px;
+	}
+	.cutting__descr{
+		margin-bottom: 80px;
+	}
+	.proccess-menu{
+		margin-top: 90px;
+	}
+	.slider-descr{
+		min-height: 300px;
+	}
+	.main-slider__item{
+		height: 670px;
+	}
+}
+@media(min-width: 992px){
+	.visible-sm{
+		display: none;
+	}
+	.wrapper{
+		padding-top: 60px;
+		min-height: 100%;
+		padding-bottom: 416px;
+	}
+	.footer{
+		margin-top: -416px;
+	}
+}
+@media(max-width: 991px){
+	.hidden-sm{
+		display: none;
+	}
+	.slider-text h2{
+		font-size: 30px;
+		margin-bottom: 40px;
+	}
+	.top-panel__text{
+		margin: 10px 0;
+		color: #31363c;
+	}
+	.phone-text{
+		color: #31363c;
+	}
+	.slider-text{
+		width: 430px;
+	}
+	.calculation__item{
+		width: 31%;
+	}
+	.main-slider__item{
+		height: 470px;
+	}
+	.phone-input{
+		margin-top: 0;
+	}
+	.calculation__group_footer{
+		margin-top: 30px;
+	}
+	.calculation,
+	.cutting,
+	.proccess,
+	.checklist,
+	.instr,
+	.text-block,
+	.consultation,
+	.advantages,
+	.footer-top{
+		padding: 50px 0;
+	}
+	.cutting__work,
+	.cutting__work__header{
+		text-align: left;
+	}
+	.proccess-menu{
+		margin-top: 40px;
+		margin-bottom: 30px;
+	}
+	.workman{
+		margin-top: 30px;
+		padding: 20px;
+	}
+	.subtitle{
+		margin-bottom: 20px;
+	}
+	.instr__subtitle{
+		margin-bottom: 30px;
+	}
+	.instr__item_last{
+		margin-top: 40px;
+	}
+	.calculation__right{
+		padding-left: 15px;
+	}
+}
+
+@media(max-width: 767px){
+	.main-slider__item{
+		display: none;
+	}
+	.main-slider{
+		background: url(../img/main-bg.jpg) no-repeat 50%;
+    background-size: cover;
+    height: 75px;
+	}
+	.modal-footer__text{
+		width: 100%;
+	}
+	.btn-modal{
+		margin-top: 20px;
+	}
+	.footer__item{
+		text-align: center;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.checklist-wrapp{
+		margin-top: 30px;
+	}
+	.modal-title{
+		font-size: 18px;
+	}
+	.footer__contacts,
+	.footer__item:last-child{
+		text-align: center;
+	}
+	h2,
+	.h2{
+		font-size: 24px;
+	}
+	.checklist__text{
+		font-size: 18px;
+		margin-bottom: 40px;
+	}
+	h4{
+		font-size: 18px;
+		margin-bottom: 15px;
+	}
+	.product-price{
+		font-size: 18px;
+	}
+	.product__footer .rub{
+		font-size: 20px;
+	}
+	.product__name{
+		font-size: 18px;
+	}
+	.calculation__item{
+		width: 100%;
+	}
+	.item-title_big{
+		font-size: 24px;
+	}
+	.cutting__descr{
+		margin-bottom: 40px;
+	}
+	.skype-block{
+		font-size: 16px;
+	}
+	.social{
+		margin-top: 20px;
+	}
+	.skype-block{
+		margin-bottom: 30px;
+	}
+	.cutting__work + div{
+		margin-top: 40px;
+	}
+	.instr__item + .instr__item{
+		margin-top: 40px;
+	}
+	.phone-input_cons{
+		margin-bottom: 20px;
+	}
+	.calculation__block{
+		padding: 15px;
+	}
+	.section-product{
+		padding: 30px 0;
+	}
+	.page-title{
+		font-size: 24px;
+		margin-bottom: 30px;
+	}
+	.content{
+		padding-top: 30px;
+	}
+	.pagination__pages li{
+		margin: 0;
+	}
+	.pagination__pages li a{
+		width: 25px;
+		height: 25px;
+		line-height: 21px;
+		font-size: 13px;
+	}
+	.pagination__btn{
+		margin-top: 5px;
+	}
+}
+@media(max-width: 480px){
+	.cutting__btn .btn{
+		width: 100%;
+		margin: 10px 0;
+		text-align: center;
+	}
+	.col-12{
+		width: 100%;
+	}
+	.copyright{
+		text-align: center;
+	}
+	.hidden-480{
+		display: none;
+	}
+}
