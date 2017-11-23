@@ -666,9 +666,16 @@
         </div>
       </div>
       <div class="section cutting">
+        <div class="cutting__arrow">
+          <a href="#" class="cutting__arrow__item cutting__arrow__item_up"></a>
+          <div class="cutting__arrow__text">
+            Лист 10 мм
+          </div>
+          <a href="#" class="cutting__arrow__item cutting__arrow__item_bottom"></a>
+        </div>
         <div class="container">
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 cutting-left">
               <h2 class="item-title item-title_big">Качественная резка <br> с точностью до 0.2 мм</h2>
               <p class="subtitle">
                 На практиве, а не на бумаге
@@ -741,16 +748,35 @@
                 <h2 class="item-title item-title_big item-title_white">
                   Наши станки <br>в работе
                 </h2>
-                <ul class="proccess-menu">
-                  <li><a href="#">Раскрой заготовки</a></li>
-                  <li><a href="#">Установка листа</a></li>
-                  <li><a href="#">Лазерное позиционирование</a></li>
-                  <li><a href="#">Выбор программы</a></li>
+                <ul class="proccess-menu" role="tablist">
+                  <li class="active"><a href="#tab1" role="tab" data-toggle="tab">Раскрой заготовки</a></li>
+                  <li><a href="#tab2" role="tab" data-toggle="tab">Установка листа</a></li>
+                  <li><a href="#tab3" role="tab" data-toggle="tab">Лазерное позиционирование</a></li>
+                  <li><a href="#tab4" role="tab" data-toggle="tab">Выбор программы</a></li>
                 </ul>
               </div>
               <div class="col-md-8 col-sm-8 col-xs-12 pull-right">
-                <div class="proccess-video">
-                  <img src="img/video.png" alt="">
+                 <div class="tab-content">
+                  <div role="tabpanel" class="tab-pane active" id="tab1">
+                    <div class="proccess-video">
+                      <img src="img/video.png" alt="">
+                    </div>
+                  </div>
+                  <div role="tabpanel" class="tab-pane" id="tab2">
+                    <div class="proccess-video">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut iste doloremque illo voluptatem incidunt et ducimus, cum sed dolores dicta quas autem tenetur quam nam pariatur dignissimos illum suscipit quibusdam aspernatur sint, nobis laborum tempora voluptas ea! Facere, non, veniam! Consequatur libero necessitatibus, optio eum, vitae earum quas nisi soluta.
+                    </div>
+                  </div>
+                  <div role="tabpanel" class="tab-pane" id="tab3">
+                    <div class="proccess-video">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia labore, odit vel, architecto veniam voluptatem quibusdam fugiat, reiciendis, aspernatur recusandae ipsa nobis! Nemo fugiat dignissimos vel perferendis, pariatur harum placeat corporis, fuga recusandae, dolores nihil excepturi sit quas provident nulla non beatae! Consequatur cumque tempora doloremque possimus, dolores veniam voluptas vitae dolorum recusandae corrupti, nisi officia, delectus debitis cupiditate nam? Odit animi deserunt, ducimus inventore maiores natus reiciendis praesentium, atque iste ab quos quo. Eaque, beatae minus. Repudiandae nesciunt aperiam ipsum sunt, nulla, error obcaecati dolorum minus beatae enim animi nemo accusantium corporis magni, et cumque reiciendis! Vel aliquid, libero.
+                    </div>
+                  </div>
+                  <div role="tabpanel" class="tab-pane" id="tab4">
+                    <div class="proccess-video">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis eligendi ut quas quasi quis quod, soluta, deserunt ducimus. Officiis, illo!
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
