@@ -4,6 +4,7 @@
 @import "partials/carousel";
 @import "partials/modal";
 @import "partials/fancybox";
+@import "partials/animate";
 @import "partials/variable";
 
 body{
@@ -971,6 +972,21 @@ select::-ms-expand {
 		right: 0;
 		background: #f4f6f7;
 	}
+	&__carousel{
+		.owl-nav{
+			width: 50px;
+			text-align: center;
+			font-size: 16px;
+			font-family: $bold;
+			position: absolute;
+			top: 50%;
+			left: 0;
+			transform: translate(0, -50%);
+		}
+		.owl-next{
+			margin-top: 120px;
+		}
+	}
 	&__descr{
 		font-size: 16px;
 		color: #3a3f46;
@@ -1018,9 +1034,9 @@ select::-ms-expand {
 		font-family: $bold;
 		position: absolute;
 		z-index: 2;
-		left: 50%;
+		left: 0;
 		top: 50%;
-		transform: translate(-50%, -50%);
+		transform: translate(25%, -50%);
 
 		&__text{
 			margin: 30px 0;

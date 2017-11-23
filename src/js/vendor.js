@@ -5,3 +5,4 @@
 //= partials/bxslider.js
 //= partials/fancybox.js
 //= partials/ion.rangeSlider.js
+//= ../../bower_components/owl.carousel/dist/owl.carousel.js

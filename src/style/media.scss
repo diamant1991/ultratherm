@@ -7,9 +7,6 @@
 	.slider-img{
 		width: 300px;
 	}
-	.cutting__arrow{
-		display: none;
-	}
 	.slider-text h2{
 		font-size: 34px;
 	}
@@ -37,6 +34,33 @@
 	}
 	.main-slider__item{
 		height: 670px;
+	}
+	.cutting__carousel{
+		padding-top: 40px;
+
+		.owl-nav{
+			top: 0;
+			transform: none;
+			width: 100%;
+		}
+		.owl-next{
+			margin-top: 0;
+			display: inline-block;
+			vertical-align: middle;
+			margin-left: 10px;
+		}
+		.owl-prev{
+			display: inline-block;
+			vertical-align: middle;
+		}
+	}
+	.cutting__arrow{
+		top: 0;
+		left: 15px;
+		transform: none;
+	}
+	.cutting__arrow__text{
+		margin: 0;
 	}
 }
 @media(min-width: 992px){
@@ -159,6 +183,9 @@
 		width: 100%;
 		margin-bottom: 20px;
 	}
+	.cutting-left{
+		margin-bottom: 30px;
+	}
 	.checklist-wrapp{
 		margin-top: 30px;
 	}
@@ -260,5 +287,8 @@
 	}
 	.catalog{
 		padding-bottom: 30px;
+	}
+	.cutting__carousel .owl-nav{
+		text-align: right;
 	}
 }

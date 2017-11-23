@@ -305,25 +305,25 @@ ul.bxslider {
   height: 100%;
   width: 100%; }
 
-.owl-prev,
-.owl-next{
-  display: block;
-  width: 17px;
-  height: 28px;
-  position: absolute;
-  z-index: 2;
-  top: 45%;
-  margin-top: -26px;
-  text-indent: -9999px;
-}
-.owl-prev{
-  left: 10px;
-  background: url(../img/owl-prev.png)no-repeat;
-}
-.owl-next{
-  right: 10px;
-  background: url(../img/owl-next.png)no-repeat;
-}
+// .owl-prev,
+// .owl-next{
+//   display: block;
+//   width: 17px;
+//   height: 28px;
+//   position: absolute;
+//   z-index: 2;
+//   top: 45%;
+//   margin-top: -26px;
+//   text-indent: -9999px;
+// }
+// .owl-prev{
+//   left: 10px;
+//   background: url(../img/owl-prev.png)no-repeat;
+// }
+// .owl-next{
+//   right: 10px;
+//   background: url(../img/owl-next.png)no-repeat;
+// }
 .owl-dot{
   display: inline-block;
   vertical-align: middle;

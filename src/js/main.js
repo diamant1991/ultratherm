@@ -73,3 +73,25 @@ $(document).mouseup(function (e) {
         $('.calculation__block').removeClass('low-opacity')
     }
 });
+
+var owl = $(".cutting__carousel").owlCarousel({
+  loop: true,
+  items: 1,
+  dots: false,
+  onInitialized: carouselInitialized,
+  nav: true,
+  navText: ["<a class='cutting__arrow__item cutting__arrow__item_up'></a>",
+            "<a class='cutting__arrow__item cutting__arrow__item_bottom'></a>"],
+  animateOut: 'slideOutUp',
+  animateIn: 'slideInUp'
+});
+
+function carouselInitialized(event){
+  var activeText = $('.cutting__carousel .owl-item.active').find('.item').attr('data-text');
+  $('.cutting__arrow__text').text(activeText)
+}
+owl.on('changed.owl.carousel',function(property){
+  var current = property.item.index;
+  var slideText = $(property.target).find(".owl-item").eq(current).find('.item').attr('data-text');
+  $('.cutting__arrow__text').text(slideText)
+});
