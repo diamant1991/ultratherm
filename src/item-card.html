@@ -1,0 +1,467 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Карточка товара</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/media.css">
+  <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>a
+  <![endif]-->
+</head>
+<body>
+  <div class="wrapper">
+    //= template/header-inner.html
+    <div class="breadcrumb">
+      <div class="container">
+        <ul>
+         <li> 
+            <a href="#" class="middle">Главная</a> 
+             <span class="middle">/</span> 
+          </li>
+          <li>
+            <span class="middle">Контакты</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="card">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-left">
+            <div class="card__slider">
+              <div class="card__slider__item">
+                <ul class="bxslider">
+                  <li>
+                    <img src="http://via.placeholder.com/440x310" alt="">
+                  </li>
+                  <li>
+                    <img src="http://via.placeholder.com/410x320" alt="">
+                  </li>
+                  <li>
+                    <img src="http://via.placeholder.com/430x280" alt="">
+                  </li>
+                  <li>
+                    <img src="http://via.placeholder.com/440x300" alt="">
+                  </li>
+                </ul>
+              </div>
+              <div class="card__thumb clearfix" id="thumb">
+                <a href="#" class="thumb-item" data-slide-index="0" style="background-image: url(http://via.placeholder.com/65x65)"></a>
+                <a href="#" class="thumb-item" data-slide-index="1"></a>
+                <a href="#" class="thumb-item" data-slide-index="2"></a>
+                <a href="#" class="thumb-item thumb-item_video" data-slide-index="3" style="background-image: url(http://via.placeholder.com/65x65)"></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12 pull-right">
+            <div class="card-info">
+              <h1 class="page-title page-title_card">
+                Станок плазменной резки  с ЧПУ <span class="red-color">MTRP 2030</span>
+              </h1>
+              <p>
+                Lorem ipsum dolor sit amet, maiores ornare ac fermentum, imperdiet ut vivamus a, nam lectus at nunc. Quam euismod sem, semper ut potenti pellentesque quisque. 
+              </p>
+              <div class="card__info clearfix">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <div class="card__info__item">
+                      <div class="table-cell card__info__icon">
+                        <img src="img/info1.png" alt="">
+                      </div>
+                      <div class="table-cell">
+                        <div class="card__info__title">Ширина листа</div>
+                        <div class="card__info__text">1 300 мм</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="card__info__item">
+                      <div class="table-cell card__info__icon">
+                        <img src="img/info2.png" alt="">
+                      </div>
+                      <div class="table-cell">
+                        <div class="card__info__title">Длина листа</div>
+                        <div class="card__info__text">1 300 мм</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="card__info__item">
+                      <div class="table-cell card__info__icon">
+                        <img src="img/info3.png" alt="">
+                      </div>
+                      <div class="table-cell">
+                        <div class="card__info__title">Резак</div>
+                        <div class="card__info__text">Плазменный</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="card__info__item">
+                      <div class="table-cell card__info__icon">
+                        <img src="img/info4.png" alt="">
+                      </div>
+                      <div class="table-cell">          
+                        На раме, <br>
+                        без стола
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card__more">
+                <a href="#" class="item-link">
+                  Подробнее →
+                </a>
+              </div>
+              <div class="card__footer clearfix">
+                <div class="pull-left">
+                  <div class="card__price">
+                    860 000 
+                  </div>
+                </div>
+                <div class="pull-right">
+                  <a href="#" data-toggle="modal" data-target="#get-call" class="btn btn-red">
+                    <span class="middle">Оставить заявку</span>
+                    <span class="middle btn__icon">
+                      <img src="img/right-arrow.png" alt="">
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="description">
+      <div class="container">
+        <h2 class="page-title">MTRP 2030</h2>
+        <div class="tab">
+          <ul class="nav-tab clearfix" role="tablist">
+            <li class="active"><a href="#tab1" role="tab" data-toggle="tab">Описание</a></li>
+            <li><a href="#tab2" role="tab" data-toggle="tab">Характеристики</a></li>
+            <li><a href="#tab3" role="tab" data-toggle="tab">Гарантия</a></li>
+            <li><a href="#tab4" role="tab" data-toggle="tab">Доставка</a></li>
+            <li><a href="#tab5" role="tab" data-toggle="tab">Монтаж и сервис</a></li>
+            <li><a href="#tab6" role="tab" data-toggle="tab">Оплата</a></li>
+          </ul>
+          <div class="tab-content tab-text">
+            <div role="tabpanel" class="tab-pane active" id="tab1">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit iste ducimus dolorem exercitationem tempora quasi totam eaque adipisci aspernatur ipsam.
+              </p>
+              <img src="http://via.placeholder.com/230x230" align="left" alt="">
+              <p>
+                <b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit quidem eius, deleniti ipsum voluptatum saepe odio? Similique reprehenderit maiores, dicta modi. Totam explicabo sequi repellendus reprehenderit aliquam voluptas laboriosam odit.</b>
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe repellat, reiciendis mollitia ad id debitis explicabo accusantium blanditiis deleniti repellendus?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci eaque aliquam iste ducimus perferendis, ea autem! Perspiciatis, dolor iure. Tenetur quisquam ullam numquam vitae, deserunt ut eos, quam eum quod error explicabo. Ab dolore magnam rem beatae amet omnis ullam harum eligendi assumenda, eum nobis officia ad ipsam enim eius doloremque ratione nulla necessitatibus, nemo, sint suscipit nisi possimus unde!
+              </p>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="tab2">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, sapiente.
+            </div>
+            <div role="tabpanel" class="tab-pane" id="tab3">
+              
+            </div>
+            <div role="tabpanel" class="tab-pane" id="tab4">
+              
+            </div>
+            <div role="tabpanel" class="tab-pane" id="tab5">
+              
+            </div>
+            <div role="tabpanel" class="tab-pane" id="tab6">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section calculation">
+      <div class="container">
+        <h2 class="item-title item-title_white">
+          Рассчитаем для вас <span class="red-color">точную</span> стоимость
+        </h2>
+        <div class="calculation-wrapp clearfix">
+          <div class="row">
+            <div class="col-md-8 col-sm-12 col-xs-12 pull-left">
+              <div class="calculation__block">
+                <div class="flex">
+                  <div class="calculation__item">
+                    <div class="calculation__title">
+                      <div class="middle">Толщина листа</div>
+                      <div class="middle tooltip">
+                        <div class="tooltip-icon">
+                          <img src="img/quest.png" alt="">
+                        </div>
+                        <div class="tooltip-item">
+                          <div class="tooltip-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id tincidunt purus, et efficitur ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. venenatis orci, ac pellentesque quam. Donec rhoncus nunc in purus luctus suscipit nec a lorem. Nam mollis justo ut nisi blandit, sit amet iaculis ipsum lacinia. Morbi id libero ut augue convallis aliquam posuere vehicula sem. In congue mauris odio, sagittis molestie sem consequat in. Etiam quam nisi, malesuada id diam a, egestas blandit dolor.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="calculation__choice">
+                      <div class="select">
+                        <a href="javascript:void(0);" class="slct">от 5 мм</a>
+                        <ul class="drop">
+                          <li>от 10 мм</li>
+                          <li>от 15 мм</li>
+                          <li>от 20 мм</li>
+                        </ul>
+                        <input type="hidden" class="select-input">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="calculation__item">
+                    <div class="calculation__title">
+                      Ширина листа
+                    </div>
+                    <div class="calculation__choice">
+                      <input type="text" id="range_01">
+                    </div>
+                  </div>
+                  <div class="calculation__item">
+                    <div class="calculation__title">
+                      Длина листа
+                    </div>
+                    <div class="calculation__choice">
+                      <input type="text" id="range_02">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="calculation__block">
+                <div class="flex">
+                  <div class="calculation__item">
+                    <div class="calculation__title">
+                      <span class="middle">Комплектация со столом</span>
+                      <div class="middle tooltip">
+                        <div class="tooltip-icon">
+                          <img src="img/quest.png" alt="">
+                        </div>
+                        <div class="tooltip-item">
+                          <div class="tooltip-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id tincidunt purus, et efficitur ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. venenatis orci, ac pellentesque quam. Donec rhoncus nunc in purus luctus suscipit nec a lorem. Nam mollis justo ut nisi blandit, sit amet iaculis ipsum lacinia. Morbi id libero ut augue convallis aliquam posuere vehicula sem. In congue mauris odio, sagittis molestie sem consequat in. Etiam quam nisi, malesuada id diam a, egestas blandit dolor.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="calculation__choice">
+                      <div class="radio-item middle">
+                        <input type="radio" class="radio" id="radio" name="radio1" checked>
+                        <label for="radio">Да</label>
+                      </div>
+                      <div class="radio-item middle">
+                        <input type="radio" class="radio" id="radio2" name="radio1">
+                        <label for="radio2">Нет</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="calculation__item">
+                    <div class="calculation__title">
+                      Тип и количество резаков
+                    </div>
+                    <div class="calculation__choice">
+                      <div class="radio-item middle">
+                        <input type="radio" class="radio" id="radio3" name="radio2" checked>
+                        <label for="radio3">Плазма</label>
+                      </div>
+                      <div class="radio-item middle">
+                        <input type="radio" class="radio" id="radio4" name="radio2">
+                        <label for="radio4">Газ</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="calculation__item">
+                    <div class="calculation__title">
+                      Тип металла
+                    </div>
+                    <div class="calculation__choice">
+                      <div class="select">
+                        <a href="javascript:void(0);" class="slct">Черный</a>
+                        <ul class="drop">
+                          <li>Белый</li>
+                          <li>Черный</li>
+                        </ul>
+                        <input type="hidden" class="select-input">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="calculation__block">
+                <div class="flex">
+                  <div class="calculation__item">
+                    <div class="calculation__title">
+                      <span class="middle">Функция резки труб</span>
+                      <div class="middle tooltip">
+                        <div class="tooltip-icon">
+                          <img src="img/quest.png" alt="">
+                        </div>
+                        <div class="tooltip-item">
+                          <div class="tooltip-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id tincidunt purus, et efficitur ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. venenatis orci, ac pellentesque quam. Donec rhoncus nunc in purus luctus suscipit nec a lorem. Nam mollis justo ut nisi blandit, sit amet iaculis ipsum lacinia. Morbi id libero ut augue convallis aliquam posuere vehicula sem. In congue mauris odio, sagittis molestie sem consequat in. Etiam quam nisi, malesuada id diam a, egestas blandit dolor.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="calculation__choice">
+                      <div class="radio-item middle">
+                        <input type="radio" class="radio" id="radio5" name="radio3" checked>
+                        <label for="radio5">Да</label>
+                      </div>
+                      <div class="radio-item middle">
+                        <input type="radio" class="radio" id="radio6" name="radio3">
+                        <label for="radio6">Нет</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="calculation__item">
+                    <div class="calculation__title">
+                      Город поставки
+                    </div>
+                    <div class="calculation__choice">
+                      <input type="text" class="form-control" placeholder="Введите город">
+                    </div>
+                  </div>
+                  <div class="calculation__item">
+                    <div class="calculation__title">
+                      Шеф–монтаж и обучение
+                    </div>
+                    <div class="calculation__choice">
+                      <div class="radio-item middle">
+                        <input type="radio" class="radio" id="radio7" name="radio4" checked>
+                        <label for="radio7">Да</label>
+                      </div>
+                      <div class="radio-item middle">
+                        <input type="radio" class="radio" id="radio8" name="radio4">
+                        <label for="radio8">Нет</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12 pull-right calculation__right">
+              <h4 class="small-title">Выберите нужные данные в левом блоке </h4>
+              <div class="calculation__group">
+                <input type="text" class="phone-input" placeholder="Введите свой телефон">
+              </div>
+              <div class="calculation__group">
+                <a href="#" class="btn btn-red btn-full clearfix">
+                  <span class="middle">Получить расчет</span>
+                  <span class="middle btn__icon pull-right">
+                    <img src="img/right-arrow.png" alt="">
+                  </span>
+                </a>
+              </div>
+              <div class="calculation__group calculation__group_footer clearfix">
+                <div class="pull-left">
+                  Подготовим предложение <br>
+                  в течении дня
+                </div>
+                <div class="pull-right">
+                  <img src="img/sign.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section setting">
+      <div class="container">
+        <h2 class="item-title">
+          Описание узлов установки
+        </h2>
+        <div class="setting__item">
+          <div class="setting__title">
+            1. Станина
+          </div>
+          <div class="setting__content clearfix">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultricies mauris a lorem tincidunt tempus. Suspendisse in lorem eget lorem cursus placerat. Mauris ut nibh fringilla, varius tellus sed, blandit enim. Aenean eget lobortis leo. Praesent sed sollicitudin nisl, et hendrerit arcu. Duis ut nisi orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam at urna neque. Suspendisse accumsan sagittis arcu, sit amet vestibulum diam iaculis a. Maecenas consectetur nulla quam. Integer maximus turpis lectus, ultrices ullamcorper arcu aliquam eget. Donec mattis tincidunt nunc eleifend ultricies.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultricies mauris a lorem tincidunt tempus. Suspendisse in lorem eget lorem cursus placerat. Mauris ut nibh fringilla, varius tellus sed, blandit enim. Aenean eget lobortis leo. Praesent sed sollicitudin nisl, et hendrerit arcu. Duis ut nisi orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam at urna neque. Suspendisse accumsan sagittis arcu, sit amet vestibulum diam iaculis a. Maecenas consectetur nulla quam. Integer maximus turpis lectus, ultrices ullamcorper arcu aliquam eget. Donec mattis tincidunt nunc eleifend ultricies.
+            </p>
+          </div>
+        </div>
+        <div class="setting__item">
+          <div class="setting__title">
+            2. Пульт управления
+          </div>
+          <div class="setting__content clearfix">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultricies mauris a lorem tincidunt tempus. Suspendisse in lorem eget lorem cursus placerat. Mauris ut nibh fringilla, varius tellus sed, blandit enim. Aenean eget lobortis leo. Praesent sed sollicitudin nisl, et hendrerit arcu. Duis ut nisi orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam at urna neque. Suspendisse accumsan sagittis arcu, sit amet vestibulum diam iaculis a. Maecenas consectetur nulla quam. Integer maximus turpis lectus, ultrices ullamcorper arcu aliquam eget. Donec mattis tincidunt nunc eleifend ultricies.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultricies mauris a lorem tincidunt tempus. Suspendisse in lorem eget lorem cursus placerat. Mauris ut nibh fringilla, varius tellus sed, blandit enim. Aenean eget lobortis leo. Praesent sed sollicitudin nisl, et hendrerit arcu. Duis ut nisi orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam at urna neque. Suspendisse accumsan sagittis arcu, sit amet vestibulum diam iaculis a. Maecenas consectetur nulla quam. Integer maximus turpis lectus, ultrices ullamcorper arcu aliquam eget. Donec mattis tincidunt nunc eleifend ultricies.
+            </p>
+          </div>
+        </div>
+        <div class="setting__item">
+          <div class="setting__title">
+            11. Рабочий стол оператора
+          </div>
+          <div class="setting__content clearfix">
+            <img src="http://via.placeholder.com/350x200" align="left" alt="">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae voluptates ex, rem dolor beatae minus, voluptatibus maiores perspiciatis nobis facilis?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, ipsum in repudiandae, nesciunt sunt adipisci, nisi at voluptates vitae consequuntur corrupti aut. Animi ratione, eveniet nam, quibusdam vel voluptate optio.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident inventore eos illo doloribus velit neque sint pariatur, quasi quaerat! Et veritatis, tempore obcaecati eius temporibus.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section consultation">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 col-sm-5 col-xs-12 pull-left">
+            <div class="table-cell consultation__icon hidden-sm">
+              <img src="img/cons.png" alt="">
+            </div>  
+            <div class="table-cell">
+              <h4 class="no-mrg">
+                Остались вопросы? <br>
+                Получите консультацию от специалиста
+              </h4>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-7 col-xs-12 pull-right">
+            <form action="">
+              <div class="row">
+                <div class="col-md-6 col-sm-6">
+                  <input type="text" class="phone-input phone-input_cons" placeholder="Введите свой телефон">
+                </div>
+                <div class="col-md-6 col-sm-6">
+                  <button type="submit" class="btn btn-red btn-full clearfix">
+                    <span class="middle">Получить расчет</span>
+                    <span class="middle btn__icon pull-right">
+                      <img src="img/right-arrow.png" alt="">
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  //= template/footer.html
+
+  <script src="js/vendor.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
