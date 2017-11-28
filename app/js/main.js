@@ -43,6 +43,15 @@ $('.card__slider__item .bxslider').bxSlider({
   mode: 'fade'
 });
 
+$('.navbar-toggle').click(function() {
+  $('.mobile-panel').fadeIn(300)
+});
+
+$('.close-panel').click(function() {
+  $('.mobile-panel').fadeOut(300)
+});
+
+
 // Select
 $('.slct').click(function(){
   var dropBlock = $(this).parent().find('.drop');
@@ -100,6 +109,31 @@ owl.on('changed.owl.carousel',function(property){
   var current = property.item.index;
   var slideText = $(property.target).find(".owl-item").eq(current).find('.item').attr('data-text');
   $('.cutting__arrow__text').text(slideText)
+});
+
+
+$('.carousel-item').owlCarousel({
+  loop: true,
+  dots: false,
+  nav: true,
+  margin: 30,
+  responsive:{
+    0:{
+        items:1
+    },
+    480:{
+        items:2
+    },
+    768:{
+        items:3
+    },
+    1199:{
+        items:4
+    },
+    1599:{
+        items:5
+    }
+  }
 });
 
 $('.setting__title').click(function() {

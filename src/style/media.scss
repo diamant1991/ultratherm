@@ -199,6 +199,27 @@
 	.main-slider__item{
 		display: none;
 	}
+	.text-page h2{
+		font-size: 24px;
+		margin-bottom: 20px;
+	}
+	h1{
+		font-size: 26px;
+		margin-bottom: 20px;
+	}
+	.text-page p{
+		margin-bottom: 20px;
+	}
+	.text-page{
+		padding: 30px 0;
+	}
+	.text-page h3{
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+	.advant-block{
+		margin-bottom: 20px;
+	}
 	.requisites{
 		padding-bottom: 50px;
 	}
@@ -368,6 +389,30 @@
 	}
 	.col-12{
 		width: 100%;
+	}
+	.carousel-item{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.carousel-item .owl-prev{
+		left: 40px;
+	}
+	.carousel-block{
+		margin-bottom: 30px;
+	}
+	.text-page table thead{
+		text-transform: none;
+		letter-spacing: 1px;
+	}
+	.text-page table td{
+		padding: 5px;
+		font-size: 12px;
+	}
+	.icon-item{
+		padding-right: 15px;
+	}
+	.carousel-item .owl-next{
+		right: 40px;
 	}
 	.copyright{
 		text-align: center;
